@@ -1,12 +1,12 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.5.0/claudectl-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "851ac8d8131baff50eeb0630fb157e754ac6be4e1c523aa1d1a626b707af41b0"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.6.0/claudectl-v0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5966876824bb25f3748ac3c68cc3b43cc8be534a83ce9a7750219ebe132c789a"
     end
   end
   def install
