@@ -1,18 +1,18 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.8.2"
+  version "0.8.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.8.2/claudectl-v0.8.2-aarch64-apple-darwin.tar.gz"
-      sha256 "2ce3a0c5e944a337b359e797c7fa93bfae0842f6ce5b25ef249ee7be1e080e8f"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.8.3/claudectl-v0.8.3-aarch64-apple-darwin.tar.gz"
+      sha256 "17f811a6bf6479c626ec83804582d3655eba1145ca977ad98e94b2c7e61dcc1e"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.8.2/claudectl-v0.8.2-x86_64-apple-darwin.tar.gz"
-      sha256 "afb07440dbc5f2559ca3579a263e77863d7705f613a142a105efd17d19ebce1d"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.8.3/claudectl-v0.8.3-x86_64-apple-darwin.tar.gz"
+      sha256 "3fa9d4eb7fdcfe981cf5621bbb9ee0589628491bd5e558c58929c001468f6908"
     end
   end
 
