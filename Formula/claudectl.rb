@@ -7,12 +7,12 @@ class Claudectl < Formula
   on_macos do
     on_arm do
       url "https://github.com/mercurialsolo/claudectl/releases/download/v0.12.0/claudectl-v0.12.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f4f700beb3a1d46b9c2056d2400ecdf6e65c0bd2f2c3a7eed7375880b1522733"
+      sha256 "bae05a600df37750472b77a71599fc8c4366bd72865c2be285cc400e6ed8e2ba"
     end
 
     on_intel do
       url "https://github.com/mercurialsolo/claudectl/releases/download/v0.12.0/claudectl-v0.12.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6ff9c1db6093c4fb42e1412a51b7f9e578da9ed074039506543e64ed7913baa8"
+      sha256 "a60b4c6cf348b227603ce1b6975ddac39e2223cf983daac3b63523eaeafea729"
     end
   end
 
