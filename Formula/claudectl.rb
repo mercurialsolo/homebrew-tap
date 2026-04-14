@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.16.1"
+  version "0.16.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.1/claudectl-v0.16.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ad3ae0bbd1c0e54be7704649d705ff6fc155b20fab91bb32b68a44685077f7a4"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.2/claudectl-v0.16.2-aarch64-apple-darwin.tar.gz"
+      sha256 "6d922408e852e78ed79a73314b815c0aa61e01c6313f13c60a76b129179795d6"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.1/claudectl-v0.16.1-x86_64-apple-darwin.tar.gz"
-      sha256 "4f00eee8a4d879bf67178fc66cdcff3bb543d86b8f65a2276e1120617c123544"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.2/claudectl-v0.16.2-x86_64-apple-darwin.tar.gz"
+      sha256 "14105d646945d7039ce556dfe201e625365be80fd1db9cef200a967196bbc581"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.1/claudectl-v0.16.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "28e65e0a4b83488590e5e67837f08fba52418156583397f4c55a8fe7513c25f4"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.2/claudectl-v0.16.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ef09383ffcd3f736acebf6157f63bb5bf13a3213c59e2b74c3004b719a1d3aa7"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.1/claudectl-v0.16.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ce06ed89d904e8c84665923e4f291de5cdb313af69e0c9a579c2827bf17d24e1"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.2/claudectl-v0.16.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "5f49743b33900e1b415aeda6b16f0486b482d520451c62288e4fde0f6a1f4c38"
     end
   end
 
