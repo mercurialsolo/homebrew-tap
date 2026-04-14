@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.16.0"
+  version "0.16.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.0/claudectl-v0.16.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e0c3eb0aafcf4b2864e906708792582b291a3023958e5cb0f0ea18edae2e714b"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.1/claudectl-v0.16.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ad3ae0bbd1c0e54be7704649d705ff6fc155b20fab91bb32b68a44685077f7a4"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.0/claudectl-v0.16.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e1bcd9f7d4d4bae79ce9981dad7f55aef1094d1dc9e2eab494b550f7116bf797"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.1/claudectl-v0.16.1-x86_64-apple-darwin.tar.gz"
+      sha256 "4f00eee8a4d879bf67178fc66cdcff3bb543d86b8f65a2276e1120617c123544"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.0/claudectl-v0.16.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "dbbd7fdd3e37871d7c59b9902440f160c51de597e952eed88819a5755d65c932"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.1/claudectl-v0.16.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "28e65e0a4b83488590e5e67837f08fba52418156583397f4c55a8fe7513c25f4"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.0/claudectl-v0.16.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3832a8f29b30368aa1e139f4563353c6abf9de09af649c527a29ae9814f2926f"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.16.1/claudectl-v0.16.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ce06ed89d904e8c84665923e4f291de5cdb313af69e0c9a579c2827bf17d24e1"
     end
   end
 
