@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.17.0"
+  version "0.17.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.0/claudectl-v0.17.0-aarch64-apple-darwin.tar.gz"
-      sha256 "be91f35800d374d3a95a6cca018491f6e5c4b3ecd503e125718461b7c57a144b"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.1/claudectl-v0.17.1-aarch64-apple-darwin.tar.gz"
+      sha256 "382a5e54bc50fbf854af2e688779b8060391aaa631d1c023d3249a982100aad5"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.0/claudectl-v0.17.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6c3f2f6064dc94ed60528d6f9ee31190ab03a9417114fe4766b89747e64b9b62"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.1/claudectl-v0.17.1-x86_64-apple-darwin.tar.gz"
+      sha256 "2a0ee3351911eaf14b3992f735f371f4ec66485576de07c59affa17d6641affc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.0/claudectl-v0.17.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "59b52480fcb0a91e51bad1008ea18bfa87798f46da45b7a0203af05c83219bc7"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.1/claudectl-v0.17.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "dede230a0abd26b7ac6e695db22ed64747c584d0a1f7cd0661a71e241385293c"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.0/claudectl-v0.17.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d362bbaee188f14220381946b702e2098b238aff344eab2ab94d5fcbb0644336"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.1/claudectl-v0.17.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ec73656afeb5ac42fc6642f9bdb41dd7f19f5c7b2820ea4354288cf88c54cc67"
     end
   end
 
