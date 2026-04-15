@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.23.2"
+  version "0.24.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.23.2/claudectl-v0.23.2-aarch64-apple-darwin.tar.gz"
-      sha256 "fb06fcc43da8199ac2e783d576914134156fd4125e323900483b3a506a2834d2"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.24.0/claudectl-v0.24.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a3b86942f2e34ef5879a8db9fbee23ebc68c9e457c565eef93dfe1b9b658f863"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.23.2/claudectl-v0.23.2-x86_64-apple-darwin.tar.gz"
-      sha256 "86104451e7b6849b13f9c521153baa5a252867fff451d09d08304559c184635a"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.24.0/claudectl-v0.24.0-x86_64-apple-darwin.tar.gz"
+      sha256 "773477890bea7b929c1ff3532616c3c007cdf7bbab8a289484d8748d3bd1accd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.23.2/claudectl-v0.23.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "94bd8a039c1640bbdde5c410c562dfbbe20ffff1a4bb889a67dd0739b711d500"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.24.0/claudectl-v0.24.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2e4231331ca91ff998910e3b874fed6d73af45fb04107ff7aea0b6583d1f33e7"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.23.2/claudectl-v0.23.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "31923c67b3e206c4d5de5dba9d841ca0d263b55a07b0ec4ec5a49aa837fb48cf"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.24.0/claudectl-v0.24.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "08025dff3c6c926eb9ead5742fa7f014fd3bdbde01b6fcd28ab417f6e5fe9a02"
     end
   end
 
