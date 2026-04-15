@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.17.1"
+  version "0.18.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.1/claudectl-v0.17.1-aarch64-apple-darwin.tar.gz"
-      sha256 "382a5e54bc50fbf854af2e688779b8060391aaa631d1c023d3249a982100aad5"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.18.0/claudectl-v0.18.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e5436d1cc551089fb029cb5076970501760e87947d63dae23dc9034214f460ae"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.1/claudectl-v0.17.1-x86_64-apple-darwin.tar.gz"
-      sha256 "2a0ee3351911eaf14b3992f735f371f4ec66485576de07c59affa17d6641affc"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.18.0/claudectl-v0.18.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d75f5ba3671e46d9bd210c409685d6ed441e65354f207a5a93dd731f9819ea47"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.1/claudectl-v0.17.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "dede230a0abd26b7ac6e695db22ed64747c584d0a1f7cd0661a71e241385293c"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.18.0/claudectl-v0.18.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0e15e455efe4b07fbf20e575647da58e27d018d755e05827192a55aa53f413aa"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.17.1/claudectl-v0.17.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ec73656afeb5ac42fc6642f9bdb41dd7f19f5c7b2820ea4354288cf88c54cc67"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.18.0/claudectl-v0.18.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ce9d0a6924fe8b507a4ff1448edf9efe294462e3ad983034fc38467d9586030f"
     end
   end
 
