@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.22.0"
+  version "0.23.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.22.0/claudectl-v0.22.0-aarch64-apple-darwin.tar.gz"
-      sha256 "790035117686910833196171348a578ea1dabb840721519bae43ecfaface9d5b"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.23.0/claudectl-v0.23.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5d687b1a8123020ee4f2aee23cb0727d790e5f9d184689f2b7f2486b6c6fa259"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.22.0/claudectl-v0.22.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9b6252864978e21846148d67891e3d9993d441739e55a6c85a30bb25962d3332"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.23.0/claudectl-v0.23.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b452b54449e068913879cd285bc6a2fdb1d46290a821dbc0385382c3c4f17de7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.22.0/claudectl-v0.22.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c8077e8b4b03b0ab03918a9aa84d37cd7d7dd3c952905c3391118f71acfcfa03"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.23.0/claudectl-v0.23.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9c655f4eed31425f48da335ef0138acd9f68526c375eddfbc99efa7949aa3c77"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.22.0/claudectl-v0.22.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f444ab037772b1677748f4b6b2c5e4a038aab438469f3eee58ac0cdbbcbf61c6"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.23.0/claudectl-v0.23.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "113a10e94bc59a3b0715ab7d3c65eff06f302d7ede9c5cd288b2536caa8a31f1"
     end
   end
 
