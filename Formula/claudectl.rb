@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.25.2"
+  version "0.26.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.25.2/claudectl-v0.25.2-aarch64-apple-darwin.tar.gz"
-      sha256 "349a49dbf4b6e1ea22b88bd16b06c489870aafc62fd59f76635cb1628f065408"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.26.0/claudectl-v0.26.0-aarch64-apple-darwin.tar.gz"
+      sha256 "65d3bb9e60e7f5bed05d2407a4a63a50bfe6f08bb42b91c6ccb34291f759ce9c"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.25.2/claudectl-v0.25.2-x86_64-apple-darwin.tar.gz"
-      sha256 "e2297686a5dfa2c32dfec5e618b1e5c8951a580ed12107483551354a08bddfa5"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.26.0/claudectl-v0.26.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b8e70437050b77f0a20362b2af72da192c9f99b261f0f612bc2cf6d7bb53f3bb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.25.2/claudectl-v0.25.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9a316a24ab0ad263c14ba8d465bff2ea8a79f03d313214bae0bffcf4f1cfc439"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.26.0/claudectl-v0.26.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "48a4bb0d00ececf025cb499c4339064c77a52f3e00af44cfb5d25a9b17f15127"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.25.2/claudectl-v0.25.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "918a761fd26d69a57af001f9f274c5e2ea66f46ec319fb03b57e159f6061332e"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.26.0/claudectl-v0.26.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0565e09c4088c99b2b9777bd6d45e9c0ec1e25b566a6f6739a846c6963c1d645"
     end
   end
 
