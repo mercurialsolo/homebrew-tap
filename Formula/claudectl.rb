@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.26.0"
+  version "0.29.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.26.0/claudectl-v0.26.0-aarch64-apple-darwin.tar.gz"
-      sha256 "65d3bb9e60e7f5bed05d2407a4a63a50bfe6f08bb42b91c6ccb34291f759ce9c"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.1/claudectl-v0.29.1-aarch64-apple-darwin.tar.gz"
+      sha256 "cb2e3a47c584287e4e763d9af93d87c03f0b2c742a15e2c73872c0285277a959"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.26.0/claudectl-v0.26.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b8e70437050b77f0a20362b2af72da192c9f99b261f0f612bc2cf6d7bb53f3bb"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.1/claudectl-v0.29.1-x86_64-apple-darwin.tar.gz"
+      sha256 "84e0b075d7381257a6598153d59ef8265f3a12dae74989f91ac9ae44c59bd73c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.26.0/claudectl-v0.26.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "48a4bb0d00ececf025cb499c4339064c77a52f3e00af44cfb5d25a9b17f15127"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.1/claudectl-v0.29.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "21e3dc5a80db289867038e40536497fca04cef9130994d843e5883896171a3ee"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.26.0/claudectl-v0.26.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0565e09c4088c99b2b9777bd6d45e9c0ec1e25b566a6f6739a846c6963c1d645"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.1/claudectl-v0.29.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "51522df55daa5e1c643bb5e15aadc08b60dd3ed97e43fd8e699a14223952cf1f"
     end
   end
 
