@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.29.1"
+  version "0.29.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.1/claudectl-v0.29.1-aarch64-apple-darwin.tar.gz"
-      sha256 "cb2e3a47c584287e4e763d9af93d87c03f0b2c742a15e2c73872c0285277a959"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.2/claudectl-v0.29.2-aarch64-apple-darwin.tar.gz"
+      sha256 "728c8abb6895ebff3570f0dfda1d43ce5f73f8cf5ab8382da5d8edf13c84347e"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.1/claudectl-v0.29.1-x86_64-apple-darwin.tar.gz"
-      sha256 "84e0b075d7381257a6598153d59ef8265f3a12dae74989f91ac9ae44c59bd73c"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.2/claudectl-v0.29.2-x86_64-apple-darwin.tar.gz"
+      sha256 "ed315e6cb416d5e9dd0da30f9052575959ed155edfeb3bf2915b5e141d9c819a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.1/claudectl-v0.29.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "21e3dc5a80db289867038e40536497fca04cef9130994d843e5883896171a3ee"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.2/claudectl-v0.29.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d84e0b0e7e003364b883a2ddbaaab91b491fb29f5187ebe4a962ef365f140a64"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.1/claudectl-v0.29.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "51522df55daa5e1c643bb5e15aadc08b60dd3ed97e43fd8e699a14223952cf1f"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.29.2/claudectl-v0.29.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "de6ff54db3cc3fba1ced734cdebaebe3c45a943ab181d32da1ceb5b984c706cf"
     end
   end
 
