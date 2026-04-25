@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.41.0"
+  version "0.42.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.41.0/claudectl-v0.41.0-aarch64-apple-darwin.tar.gz"
-      sha256 "cb8d02627dc619cc7642f5612a34058dc2b93fa7a6c4b69709537df64d77b892"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.42.0/claudectl-v0.42.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f3713bb77bc27622023a2a4e1a1f40875a639ca5e5c1bded2fa48fd9165993d2"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.41.0/claudectl-v0.41.0-x86_64-apple-darwin.tar.gz"
-      sha256 "06be0e4d17994c27be82af7e96c9a5c682634d6039ebf63bcb1b8d83f0448dbe"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.42.0/claudectl-v0.42.0-x86_64-apple-darwin.tar.gz"
+      sha256 "ab01937676092c10537771b18465da25bbe60ed356937b3c1698d2de7770118d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.41.0/claudectl-v0.41.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "2b2b5e40f7e912c4e0aa47339cf40547ff76147e4476b891ff590300082199cd"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.42.0/claudectl-v0.42.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "91ab9d3f075a8ff718550c0a489e7dcc5fe4950a3b93d1db9d5275e6948a392a"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.41.0/claudectl-v0.41.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "00a892f238f4781666bd967804a023a66b8efa783c78dd1703d4127b91bccbdf"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.42.0/claudectl-v0.42.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "af22aaf9c0085b324c773ef5858b1a4428573fe6f6bcf892551de05bcf0ae5d8"
     end
   end
 
