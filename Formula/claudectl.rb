@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.35.0"
+  version "0.41.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.35.0/claudectl-v0.35.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f4043450885f6fd7be691172e20ea1dbb966f6fa53748ab4e6cabe5e51c7747d"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.41.0/claudectl-v0.41.0-aarch64-apple-darwin.tar.gz"
+      sha256 "cb8d02627dc619cc7642f5612a34058dc2b93fa7a6c4b69709537df64d77b892"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.35.0/claudectl-v0.35.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f2d2affe485e4af62161d5bbca463edde3b090c6d5814d3062bf7f0d61cdfac3"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.41.0/claudectl-v0.41.0-x86_64-apple-darwin.tar.gz"
+      sha256 "06be0e4d17994c27be82af7e96c9a5c682634d6039ebf63bcb1b8d83f0448dbe"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.35.0/claudectl-v0.35.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "744d4c29b2831e159259830709671429d80554385160d57b79130adce014fbe1"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.41.0/claudectl-v0.41.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2b2b5e40f7e912c4e0aa47339cf40547ff76147e4476b891ff590300082199cd"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.35.0/claudectl-v0.35.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "723d0d967b4509454f7a3e83b70c0f1bc9e58cfed9dd25bd9e2b28ad7a2369b7"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.41.0/claudectl-v0.41.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "00a892f238f4781666bd967804a023a66b8efa783c78dd1703d4127b91bccbdf"
     end
   end
 
