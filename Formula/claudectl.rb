@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.47.0"
+  version "0.49.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.47.0/claudectl-v0.47.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a87a3956eece989db5348f2d5d53f5d5bd38a6f263a7b8f5fe0b0c1e61eb5073"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.2/claudectl-v0.49.2-aarch64-apple-darwin.tar.gz"
+      sha256 "55d903608994c6f4a84a5d2ae987328d8efadbd876b506bb35617bc1ee58ec94"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.47.0/claudectl-v0.47.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8724453998baabaa3134705c5b18b6fe92c8478d034f23158e5b8cdfc9ce7b37"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.2/claudectl-v0.49.2-x86_64-apple-darwin.tar.gz"
+      sha256 "f197f360cf2f4208d4854cbbd2cd62f85370c7bf758d01affff675b014df388a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.47.0/claudectl-v0.47.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "754f210953ec12addb5e657bf238dfe3796a9535382c92ac149b7e4d84205ec9"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.2/claudectl-v0.49.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "66aff15a8ce27a38d44ec55028c21957a64fc3e16d01d3f8f28f3d70b4480079"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.47.0/claudectl-v0.47.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3ef3befd926cad32eb92d095a90553e059ace186b67adb8a3520e73fe5312a18"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.2/claudectl-v0.49.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "0b7c8f28a1c2708770903e4041a8263385266fce69bade26d88f2a16f2fb8b09"
     end
   end
 
