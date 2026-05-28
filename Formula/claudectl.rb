@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "TUI for monitoring and managing Claude Code CLI sessions"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.49.2"
+  version "0.49.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.2/claudectl-v0.49.2-aarch64-apple-darwin.tar.gz"
-      sha256 "55d903608994c6f4a84a5d2ae987328d8efadbd876b506bb35617bc1ee58ec94"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.3/claudectl-v0.49.3-aarch64-apple-darwin.tar.gz"
+      sha256 "49d754eea56821293e3b2ed5e81c006f4333d95f12bbb92f299175ae71e2e6ab"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.2/claudectl-v0.49.2-x86_64-apple-darwin.tar.gz"
-      sha256 "f197f360cf2f4208d4854cbbd2cd62f85370c7bf758d01affff675b014df388a"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.3/claudectl-v0.49.3-x86_64-apple-darwin.tar.gz"
+      sha256 "266e8dde190dd0238b284aeaaa3fdf46ae3c1a083ff70aa2891563018bd2f9e7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.2/claudectl-v0.49.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "66aff15a8ce27a38d44ec55028c21957a64fc3e16d01d3f8f28f3d70b4480079"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.3/claudectl-v0.49.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "1c6ea574288462a83c5002b8b3f5605e470053c7b95be19af23c41d89e24ae2e"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.2/claudectl-v0.49.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0b7c8f28a1c2708770903e4041a8263385266fce69bade26d88f2a16f2fb8b09"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.3/claudectl-v0.49.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "928f9a3bb303e7ab7f66497445b7712707705acb602c7f95fac266155a35a3e1"
     end
   end
 
