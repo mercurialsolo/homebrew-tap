@@ -1,30 +1,30 @@
 class Claudectl < Formula
-  desc "TUI for monitoring and managing Claude Code CLI sessions"
+  desc "Orchestrate a swarm of Claude Code agents with a learning local-LLM brain"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.49.3"
+  version "0.50.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.3/claudectl-v0.49.3-aarch64-apple-darwin.tar.gz"
-      sha256 "49d754eea56821293e3b2ed5e81c006f4333d95f12bbb92f299175ae71e2e6ab"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.50.0/claudectl-v0.50.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3ccca4994cd5820baa7c0d4fa79a9b7ecc66d5f11240fd68db46d7a0a19e93b9"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.3/claudectl-v0.49.3-x86_64-apple-darwin.tar.gz"
-      sha256 "266e8dde190dd0238b284aeaaa3fdf46ae3c1a083ff70aa2891563018bd2f9e7"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.50.0/claudectl-v0.50.0-x86_64-apple-darwin.tar.gz"
+      sha256 "24fb69fb60dcb682bb0b0da22f5ad74e4e338c9a4deb86f5b59972a5c96433e9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.3/claudectl-v0.49.3-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1c6ea574288462a83c5002b8b3f5605e470053c7b95be19af23c41d89e24ae2e"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.50.0/claudectl-v0.50.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "631537ea54957d870fb235a632823abcf5758cc954bc287018a963fa04503029"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.49.3/claudectl-v0.49.3-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "928f9a3bb303e7ab7f66497445b7712707705acb602c7f95fac266155a35a3e1"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.50.0/claudectl-v0.50.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "795ce463c52168e9fea5769c5756a56ce8c5dd2e440bc1fe1e1a1383fb290121"
     end
   end
 
