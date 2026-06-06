@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "Orchestrate a swarm of Claude Code agents with a learning local-LLM brain"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.50.0"
+  version "0.51.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.50.0/claudectl-v0.50.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3ccca4994cd5820baa7c0d4fa79a9b7ecc66d5f11240fd68db46d7a0a19e93b9"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.51.0/claudectl-v0.51.0-aarch64-apple-darwin.tar.gz"
+      sha256 "74bb7f2abe96b68a42366919ddb1a9ac9712144088ba93bf65de7382c8328a03"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.50.0/claudectl-v0.50.0-x86_64-apple-darwin.tar.gz"
-      sha256 "24fb69fb60dcb682bb0b0da22f5ad74e4e338c9a4deb86f5b59972a5c96433e9"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.51.0/claudectl-v0.51.0-x86_64-apple-darwin.tar.gz"
+      sha256 "84dbb2b136c4eb65aebc59f5719045291f4b9d5fcaed91be981a988b0838bcac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.50.0/claudectl-v0.50.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "631537ea54957d870fb235a632823abcf5758cc954bc287018a963fa04503029"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.51.0/claudectl-v0.51.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b66a08adf87ba6816f4a87c6dbcbaefb07aaf063d6036fab42942f08673b3cd6"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.50.0/claudectl-v0.50.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "795ce463c52168e9fea5769c5756a56ce8c5dd2e440bc1fe1e1a1383fb290121"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.51.0/claudectl-v0.51.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "bfa05e0667ca0c11c97bb70b81a9d1be079da21659305d21f1efdc841eabfb2b"
     end
   end
 
