@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "Orchestrate a swarm of Claude Code agents with a learning local-LLM brain"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.55.0"
+  version "0.56.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.55.0/claudectl-v0.55.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c1e58d5d6ca434bfcd3329530e1558391da37c48911bd4b8d4fe0bb8533f0648"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.56.0/claudectl-v0.56.0-aarch64-apple-darwin.tar.gz"
+      sha256 "d07fe0af6eb0f9a1585b86a6ffc976c0c2ccba8e3d6cce4b099f3622c048c3a6"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.55.0/claudectl-v0.55.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ae954e191126fe769fde734777f6a8f7dc992d406bddd30d1a1c9aa18c4ee928"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.56.0/claudectl-v0.56.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a1f6eff71a9c0d712991c25dd267d3498a84ddde288ef28d95086c5cfa22022e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.55.0/claudectl-v0.55.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d0ed0d5b95f6428f1f4c497e45e5b5c73d82bd7489a384eaeb5905f9af4f0909"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.56.0/claudectl-v0.56.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "a9839027c6c2dfb5ab7f1769e21710006917f5a3d1db048c846533df64f0dabf"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.55.0/claudectl-v0.55.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "97433fe4fa0b1cf8ec6fc75667e1b7f2bcd92849db0a0f49293bb9a9bc5bd74b"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.56.0/claudectl-v0.56.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ed5fdd61add09d02de6ad00817f70bf703acf82772acade16974018dd5bc175b"
     end
   end
 
