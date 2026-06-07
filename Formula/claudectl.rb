@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "Orchestrate a swarm of Claude Code agents with a learning local-LLM brain"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.56.0"
+  version "0.57.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.56.0/claudectl-v0.56.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d07fe0af6eb0f9a1585b86a6ffc976c0c2ccba8e3d6cce4b099f3622c048c3a6"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.57.0/claudectl-v0.57.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ff63b907ec79211f6b6ec239be1c821f603ac70821806b48a3f7275b71e399ef"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.56.0/claudectl-v0.56.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a1f6eff71a9c0d712991c25dd267d3498a84ddde288ef28d95086c5cfa22022e"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.57.0/claudectl-v0.57.0-x86_64-apple-darwin.tar.gz"
+      sha256 "9e794916df322b2c12dc9de5d57b0fbac34eb9b1d0ae464a80323b11c00abb85"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.56.0/claudectl-v0.56.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a9839027c6c2dfb5ab7f1769e21710006917f5a3d1db048c846533df64f0dabf"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.57.0/claudectl-v0.57.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "aafff14f3756da6d4a762d61bfd64cd0399ecbe9be6fb298a170aadd6be4a053"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.56.0/claudectl-v0.56.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ed5fdd61add09d02de6ad00817f70bf703acf82772acade16974018dd5bc175b"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.57.0/claudectl-v0.57.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "e8fe9da902d97dd565fd9cb6391643cc02e8c1837bf3fca359127455dd4198c3"
     end
   end
 
