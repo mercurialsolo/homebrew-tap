@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "Orchestrate a swarm of Claude Code agents with a learning local-LLM brain"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.62.0"
+  version "0.63.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.62.0/claudectl-v0.62.0-aarch64-apple-darwin.tar.gz"
-      sha256 "738b91b3c53b9a07c64b841fef982a33716d8c9d474342ec740c053a2519c9da"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.63.0/claudectl-v0.63.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f91ee570eed891b543375a91cd44d041304737ade6d9d85a43af65ab4a66dc84"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.62.0/claudectl-v0.62.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0c45811de1ff7cc44b4de2722d04d071c671cdf9fd66f0244f33bca5bca96024"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.63.0/claudectl-v0.63.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d5f5e4e458a276afef5968b72855580c0cbd2a6d22f35038703116bc14f4b14d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.62.0/claudectl-v0.62.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "193a148f929be1889f90a03e0ff8b3858f652a58eefe365259b12bca0cdb9729"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.63.0/claudectl-v0.63.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "381bd4e418939dadee68a5e35f23000879e14487d2c853ea59ec542598ee092a"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.62.0/claudectl-v0.62.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "44d312a8c7e892d83c50a75a5be64dc88fe158408579bbc8d3bda5213aa2ea64"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.63.0/claudectl-v0.63.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6292abfcc2e3ea1ee31a705a11fa48e2a6083b3115f13a26370b3ba2277914e2"
     end
   end
 
