@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "Orchestrate a swarm of Claude Code agents with a learning local-LLM brain"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.73.0"
+  version "0.74.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.73.0/claudectl-v0.73.0-aarch64-apple-darwin.tar.gz"
-      sha256 "76d1431d8b5cc3b35bccaf94d4577420f3171664dbbbf76f06cac5a7fdfaddc1"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.74.0/claudectl-v0.74.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e8df04821c12a73e3c2c395f18dc5fdd6167c538ceebf01793518705ebf815b5"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.73.0/claudectl-v0.73.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ee6e582705f719831c5aa9fd08b4775b5cc6e036503551b27472c93f2dc0d903"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.74.0/claudectl-v0.74.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6f4d9fc7e3b7e64868f0b4d8f82e78189def887bff80ae17b4b5bf1b433b76a9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.73.0/claudectl-v0.73.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "a9aa2c156e79f42f3690b73e129fdf6f2e7388f8998476661cb826b6f363bb99"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.74.0/claudectl-v0.74.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9a0a67718cf4a04edeed9044d6298e37c6e915ee9e624eee2d46ae982320b8c5"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.73.0/claudectl-v0.73.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "0de4979e41d86bd908ed4577644ca4162fe7d2b3dac358f36ab0dcbb57d8eb1a"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.74.0/claudectl-v0.74.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2849572fff6fd5e23264e1a1f4f4d6694594548d5754fd559455fb768731c021"
     end
   end
 
