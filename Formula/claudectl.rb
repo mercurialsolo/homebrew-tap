@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "Hive mind for Claude Code that learns from you once and remembers everywhere"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.90.0"
+  version "0.90.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.90.0/claudectl-v0.90.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0edc3d7bdd454a757c11427c7f15ff21c7e6a52bafe18150aa2b96e2af80c4d1"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.90.1/claudectl-v0.90.1-aarch64-apple-darwin.tar.gz"
+      sha256 "d961c4a4a7064f2c3e4079c0f161aa0ba8ccaec6bf74ad35cb78b127a0c28d23"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.90.0/claudectl-v0.90.0-x86_64-apple-darwin.tar.gz"
-      sha256 "2ebd5f5dafd1464f1c77979e43a3a11b30bde6b7e9d01a983dbeb662425cd4f3"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.90.1/claudectl-v0.90.1-x86_64-apple-darwin.tar.gz"
+      sha256 "69d185afef6843697dffdf638fa6ff9c5cb1f1509d159dd0cb8e648472c8532c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.90.0/claudectl-v0.90.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "519d8222d5e2364ac85acc864d6155f5a349a023fa8eb8b23923a61830a4d4e5"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.90.1/claudectl-v0.90.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b540844dc1c2875c92f7de362321437c4ad6f2797804834f436932fbc35bd56d"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.90.0/claudectl-v0.90.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "711838db3d8e29d3d88832525174a0a60c025c1a56cf895c2c58750b30373d44"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.90.1/claudectl-v0.90.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "066bfe22ccb3521be89faab742cc60e3396d4242b3e4e2551b3508686850a230"
     end
   end
 
