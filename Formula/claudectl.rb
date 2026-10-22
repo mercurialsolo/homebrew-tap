@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "Hive mind for Claude Code that learns from you once and remembers everywhere"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.91.1"
+  version "0.92.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.91.1/claudectl-v0.91.1-aarch64-apple-darwin.tar.gz"
-      sha256 "44e7124f49d3fc071e3605e1829f843d56078dc584d5d7121698b4b2a279ae58"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.2/claudectl-v0.92.2-aarch64-apple-darwin.tar.gz"
+      sha256 "0882e4b6fe53f5e0d0111e43ce0d0bb77715f3e7bc02c909a86fb2d56aafb96d"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.91.1/claudectl-v0.91.1-x86_64-apple-darwin.tar.gz"
-      sha256 "9f732b5285e75a5c4212ade94d42f4d6d15c4fc7610f15b0e974bb045278b818"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.2/claudectl-v0.92.2-x86_64-apple-darwin.tar.gz"
+      sha256 "0bd746feb5d27b65790b8eccf372b9fd20146f737ee3e0da9c008294a1341139"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.91.1/claudectl-v0.91.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "fa81ec92754eb19a503dbc960fc71120a78855063fca4a9e510890dd43e362e6"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.2/claudectl-v0.92.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ca477a54c3d473c41ec9be105bce373d0858010ed5aa1b11ccd40938236c7249"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.91.1/claudectl-v0.91.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8c83954de98923ce61d761b8ab3414702237313377d340365e67b219af08f49d"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.2/claudectl-v0.92.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c8f3a6aea3dedfa6ab38e7fdad64f97f46e373f4cb6056b660dabb7192f1bab2"
     end
   end
 
