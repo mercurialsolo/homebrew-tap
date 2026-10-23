@@ -1,30 +1,30 @@
 class Claudectl < Formula
   desc "Hive mind for Claude Code that learns from you once and remembers everywhere"
   homepage "https://github.com/mercurialsolo/claudectl"
-  version "0.92.2"
+  version "0.92.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.2/claudectl-v0.92.2-aarch64-apple-darwin.tar.gz"
-      sha256 "0882e4b6fe53f5e0d0111e43ce0d0bb77715f3e7bc02c909a86fb2d56aafb96d"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.3/claudectl-v0.92.3-aarch64-apple-darwin.tar.gz"
+      sha256 "c82b48261a99e5f3512b0976936d07f91af834ba2950c8b61625e8ff8adb063b"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.2/claudectl-v0.92.2-x86_64-apple-darwin.tar.gz"
-      sha256 "0bd746feb5d27b65790b8eccf372b9fd20146f737ee3e0da9c008294a1341139"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.3/claudectl-v0.92.3-x86_64-apple-darwin.tar.gz"
+      sha256 "5d99c86b05682a26aae8046512f777ac2e9b95d8d543073cdb7300eb628f507e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.2/claudectl-v0.92.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ca477a54c3d473c41ec9be105bce373d0858010ed5aa1b11ccd40938236c7249"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.3/claudectl-v0.92.3-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "748c1d8c5bf506287ac11ef04c37a56c21e36192edb07cfd59cdaf6e418b5b47"
     end
 
     on_intel do
-      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.2/claudectl-v0.92.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c8f3a6aea3dedfa6ab38e7fdad64f97f46e373f4cb6056b660dabb7192f1bab2"
+      url "https://github.com/mercurialsolo/claudectl/releases/download/v0.92.3/claudectl-v0.92.3-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f1186dc786fa1296226be66805c2d8ccc056cab5df496e42ace66b1c357c5325"
     end
   end
 
